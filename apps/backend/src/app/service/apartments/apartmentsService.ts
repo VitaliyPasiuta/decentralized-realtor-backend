@@ -1,3 +1,6 @@
+// import {run} from '../../../../../../libs/sample';
+
+
 export const serviceAllApartments = async() => {
   try{
     const allApartments = mockApartments;
@@ -7,6 +10,15 @@ export const serviceAllApartments = async() => {
     throw new Error(e);
   }
 }
+
+// interface test {
+//   str: 'Admin' | 'User'
+// }
+
+// const t: test = {str: 'Admin'};
+
+// console.log(t);
+
 
 const mockApartments = [{
   id: 'string-ID-1',
